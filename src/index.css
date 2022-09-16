@@ -1,13 +1,201 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.header {
+  height: 13vh;
+  line-height: 10vh;
+  box-shadow: 3px 3px 3px 0px rgba(0, 0, 0, 0.2);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.header .logo {
+  background: linear-gradient(to bottom, #12c2e9, #c471ed, #f64f59);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 2rem;
+  font-weight: bold;
+}
+.header .logo img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.header .nav-link {
+  transition: 0.5s;
+  font-size: 13px;
+  text-decoration: none;
+  font-weight: 500;
+  margin: 0 0.5rem;
+  letter-spacing: 1px;
+  color: black;
+}
+.header .nav-link:hover {
+  background: linear-gradient(to right, #12c2e9, #c471ed, #f64f59);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.header .active-link {
+  background: linear-gradient(to right, #12c2e9, #c471ed, #f64f59);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.fa-linkedin-in {
+  color: blue;
+}
+button {
+  border: none;
+  outline: none;
+  background-color: #fff;
+}
+.home-btn {
+  padding: 6px 11px;
+  border-radius: 6px;
+  transition: 0.3s all ease;
+  cursor: pointer;
+  height: fit-content;
+  background: linear-gradient(to bottom, #12c2e9, #c471ed, #f64f59);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.home-btn {
+  background: linear-gradient(145deg, #e2e8ec, #ffffff);
+  box-shadow: 4px 4px 8px #cbcbcb, 4px -4px 8px #ffffff;
+}
+.btn_shadow {
+  padding: 6px 11px;
+  border-radius: 6px;
+  transition: 0.3s all ease;
+  cursor: pointer;
+  height: fit-content;
+  margin: 0 3px;
+  font-size: 20px;
+}
+.btn_shadow {
+  background: linear-gradient(145deg, #e2e8ec, #ffffff);
+  box-shadow: 4px 4px 8px #cbcbcb, 4px -4px 8px #ffffff;
+}
+.btn_shadow:hover {
+  transform: translateY(-10px);
+}
+.home-btn:hover {
+  /* background-color: #ff014f; */
+  background: linear-gradient(to bottom, #12c2e9, #c471ed, #f64f59);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #fff;
+}
+.hero {
+  position: relative;
+}
+.hero h3 {
+  font-weight: 600;
+  letter-spacing: 2px;
+  font-size: 40px;
+}
+.hero h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+.hero h3 span {
+  /* color: #ff014f; */
+  background: linear-gradient(to right, #12c2e9, #c471ed, #f64f59);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.hero h2 span {
+  color: #000;
+  font-size: bold;
+  font-size: 30px;
+}
+.hero p {
+  color: #878e99;
+  font-size: 18px;
+  line-height: 30px;
+  margin-top: 30px;
+}
+.hero_btn {
+  margin-top: 5%;
+}
+.hero_btn h4 {
+  font-weight: 500;
+  letter-spacing: 2px;
+  color: #43474b;
+  font-size: 15px;
+  margin: 30px 0 30px 0;
+}
+.hero_btn button {
+  margin-right: 30px;
+}
+.hero_btn i {
+  font-size: 20px;
+}
+.hero_btn button img {
+  width: 20px;
+  height: 20px;
+}
+.hero .right {
+  position: relative;
+}
+.hero .right_img {
+  background: linear-gradient(145deg, #e2e8ec, #ffffff);
+  box-shadow: 4px 4px 8px #cbcbcb, 4px -4px 8px #ffffff;
+  border-radius: 50%;
+  width: 270px;
+  height: 270px;
+  object-fit: cover;
+}
+.hero .right_img img {
+  position: absolute;
+  object-fit: cover;
+  top: 16%;
+  left: 15%;
+  width: 160px;
+  height: 160px;
+}
+.skill-title {
+  text-align: center;
+}
+.skill-title h3 {
+  font-size: 2rem;
+  background: linear-gradient(to bottom, #12c2e9, #c471ed, #f64f59);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.skill-menu {
+  margin: 0 auto;
+  margin-top: 1rem;
+}
+.skill-list {
+  padding: 0 2rem;
+  margin: 0.5rem 0;
+}
+.skill-list img {
+  width: 50px;
+}
+.skill-list .progress {
+  display: flex;
+  flex-direction: row;
+  margin-top: 0.5rem;
+}
+.progress-bar {
+  background: linear-gradient(to left, #12c2e9, #c471ed, #f64f59) !important;
+}
+@media (max-width: 768px) {
+  .header #responsive-navbar-nav {
+    position: absolute;
+    list-style: none;
+    box-shadow: rgba(50, 50, 93, 0.23) 0px 50px 100px -20px,
+      rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    left: 0;
+    top: 0;
+    transition: all 0.5s ease-in-out;
+    width: 60%;
+    height: 100vh;
+    background-color: white;
+    z-index: 888;
+  }
 }
