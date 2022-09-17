@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from "../Components/Footer";
 import Header from "../Components/Header";
 import Hero from "../Components/Hero";
 import Portfolio from "../Components/Portfolio/Portfolio";
@@ -13,6 +14,7 @@ const Home = () => {
       <Services />
       <Skills />
       <Portfolio />
+      <Footer />
     </div>
   );
 };

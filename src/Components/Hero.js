@@ -2,6 +2,7 @@ import React from "react";
 import { Typewriter } from "react-simple-typewriter";
 import profile from "../kalai-pic.png";
 import { Row, Col } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
@@ -27,20 +28,32 @@ const Hero = () => {
                   />
                 </span>
               </h2>
-              <p>
+              <p className="parah">
                 I'm a software Engineer specializing in creating stylish, modern
                 websites, web services and online stores for all the industries.
+                I have 2+ years experience in Frontend Technology.
               </p>
+              <div className="d-flex ">
+                <p>+971 52 122 4892</p>
+              </div>
               <div className="hero_btn d-flex">
                 <div className="col_1">
                   <h6>FIND WITH ME</h6>
                   <div className="button">
-                    <button className="btn_shadow">
-                      <i className="fab fa-linkedin-in"></i>
-                    </button>
-                    <button className="btn_shadow">
-                      <i className="fab fa-github"></i>
-                    </button>
+                    <a
+                      target="_blank"
+                      href="https://www.linkedin.com/in/kalaiselvi-j-b6b426177/"
+                    >
+                      <button className="btn_shadow">
+                        <i className="fab fa-linkedin-in"></i>
+                      </button>
+                    </a>
+
+                    <a target="_blank" href="https://github.com/kalaiselvi-ui">
+                      <button className="btn_shadow">
+                        <i className="fab fa-github"></i>
+                      </button>
+                    </a>
                   </div>
                 </div>
               </div>

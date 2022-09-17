@@ -99,7 +99,6 @@ button {
   font-weight: bold;
 }
 .hero h3 span {
-  /* color: #ff014f; */
   background: linear-gradient(to right, #12c2e9, #c471ed, #f64f59);
   -webkit-background-clip: text;
   background-clip: text;
@@ -107,17 +106,18 @@ button {
 }
 .hero h2 span {
   color: #000;
-  font-size: bold;
   font-size: 30px;
 }
 .hero p {
   color: #878e99;
   font-size: 18px;
   line-height: 30px;
-  margin-top: 30px;
+}
+.hero .parah {
+  margin-top: 2rem;
 }
 .hero_btn {
-  margin-top: 5%;
+  margin-top: 2%;
 }
 .hero_btn h4 {
   font-weight: 500;
@@ -127,7 +127,7 @@ button {
   margin: 30px 0 30px 0;
 }
 .hero_btn button {
-  margin-right: 30px;
+  margin-right: 10px;
 }
 .hero_btn i {
   font-size: 20px;
@@ -183,6 +183,33 @@ button {
 }
 .progress-bar {
   background: linear-gradient(to left, #12c2e9, #c471ed, #f64f59) !important;
+}
+.footer {
+  margin-top: 1rem;
+  padding: 1rem;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  box-shadow: 0 0 3px 4px rgba(0, 0, 0, 0.2);
+}
+.footer h3 {
+  font-size: 2rem;
+  background: linear-gradient(to bottom, #12c2e9, #c471ed, #f64f59);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 1rem;
+}
+.footer p i {
+  padding: 0 0.5rem;
+  font-weight: bold;
+}
+.footer p i:hover {
+  background: linear-gradient(to bottom, #12c2e9, #c471ed, #f64f59);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 @media (max-width: 768px) {
   .header #responsive-navbar-nav {
