@@ -1,16 +1,18 @@
+import project1 from "../../images/project-1.png";
 const portfolioData = [
   {
-    imageSrc:
-      "https://images.unsplash.com/photo-1559508551-44bff1de756b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=387&q=80",
-    title: "Studio Room",
-    description: "Lorem ipsum dolor sit amet, consectur dolori",
+    imageSrc: project1,
+    title: "Tourist Website",
+    description: "Created with Wordpress & WooCommerce",
     pricingText: "USD 50/Day",
+    //https://travelplandubai.com/
     features: ["Free Wifi", "Free breakfast"],
   },
   {
     imageSrc:
       "https://images.unsplash.com/photo-1616940844649-535215ae4eb1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
     title: "Deluxe Room",
+    //https://unclefluffy.com/
     description: "Lorem ipsum dolor sit amet, consectur dolori",
     pricingText: "USD 80/Day",
     features: ["Free Wifi", "Free breakfast"],

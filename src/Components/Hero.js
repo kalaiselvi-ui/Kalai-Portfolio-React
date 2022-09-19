@@ -1,8 +1,7 @@
 import React from "react";
 import { Typewriter } from "react-simple-typewriter";
-import profile from "../kalai-pic.png";
+import profile from "../images/logo-1.jpeg";
 import { Row, Col } from "react-bootstrap";
-import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
@@ -29,12 +28,28 @@ const Hero = () => {
                 </span>
               </h2>
               <p className="parah">
-                I'm a software Engineer specializing in creating stylish, modern
-                websites, web services and online stores for all the industries.
-                I have 2+ years experience in Frontend Technology.
+                Hi There! I'm Kalaiselvi Jayachandran. A Software Developer
+                having specialization in Frontend & Backend Devlopment. I have
+                2+ years of experience in Web Devlopment having strong React &
+                Wordpress Woocommerce Skills. I have Backend Skills in Nodejs,
+                Mongodb. I also have Frontend Skills in Javascript,Redux, Web
+                components Css/Sass & Bootstrap.
               </p>
-              <div className="d-flex ">
-                <p>+971 52 122 4892</p>
+              <div className="d-flex">
+                <p className="px-3">
+                  <i
+                    className="fa fa-phone px-2"
+                    style={{ color: "black" }}
+                  ></i>
+                  +971 52 122 4892
+                </p>
+                <p>
+                  <i
+                    className="fa fa-envelope px-2"
+                    style={{ color: "black" }}
+                  ></i>
+                  kalaichandran369@gmail.com
+                </p>
               </div>
               <div className="hero_btn d-flex">
                 <div className="col_1">
@@ -54,6 +69,9 @@ const Hero = () => {
                         <i className="fab fa-github"></i>
                       </button>
                     </a>
+                    <a target="_blank" href="https://github.com/kalaiselvi-ui">
+                      <button className="btn_shadow px-3">Resume</button>
+                    </a>
                   </div>
                 </div>
               </div>
@@ -62,7 +80,7 @@ const Hero = () => {
           <Col md={4}>
             <div className="right col-6">
               <div className="right_img">
-                <img src={profile} alt="" />
+                {/* <img src={profile} alt="" /> */}
               </div>
             </div>
           </Col>

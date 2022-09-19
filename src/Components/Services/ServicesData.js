@@ -10,37 +10,20 @@ const data = [
     id: 1,
     image: img1,
     title: "Web Design",
-    desc: "I throw myself down among the tall grass by the stream as I lie close to the earth.",
+    desc: "Responsive & User Interactive Websites as per Modern Standards. Also Redesigning the UI in a better way.",
   },
   {
     id: 2,
     image: img2,
     title: "Web Development",
-    desc: " It uses a dictionary of over 200 Latin words, combined witha handful of model sentence.",
+    desc: "Developing the online stores that can be easily managed easily at anytime, anywhere using Wordpress & Reactjs.",
   },
-  {
-    id: 3,
-    image: img3,
-    title: "Reactjs",
-    desc: "I throw myself down among the tall grass by the stream as I lie close to the earth.",
-  },
-  {
-    id: 4,
-    image: img4,
-    title: "Wordpress",
-    desc: "There are many variations of passages of Lorem Ipsum	available, but the majority.",
-  },
+
   {
     id: 5,
     image: img5,
     title: "SEO",
-    desc: "always free from repetition, injected humour, or non-characteristic words etc.",
-  },
-  {
-    id: 6,
-    image: img6,
-    title: "Database",
-    desc: " It uses a dictionary of over 200 Latin words, combined with a handful of model sentence.",
+    desc: "On page SEO, Meta Tags, Image Responsiveness for better reach to the top search results in the browser.",
   },
 ];
 export default data;
