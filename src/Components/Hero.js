@@ -35,7 +35,7 @@ const Hero = () => {
                 Mongodb. I also have Frontend Skills in Javascript,Redux, Web
                 components Css/Sass & Bootstrap.
               </p>
-              <div className="d-flex">
+              <div className="d-flex info-hero">
                 <p className="px-3">
                   <i
                     className="fa fa-phone px-2"
