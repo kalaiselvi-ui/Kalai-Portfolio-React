@@ -44,6 +44,8 @@ const Portfolio = () => {
             image={portfolio.imageSrc}
             title={portfolio.title}
             desc={portfolio.description}
+            link={portfolio.link}
+            technology={portfolio.technology}
           />
         ))}
       </Slider>

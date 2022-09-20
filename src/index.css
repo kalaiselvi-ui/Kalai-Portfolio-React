@@ -213,6 +213,10 @@ button {
   -webkit-text-fill-color: transparent;
 }
 @media (max-width: 768px) {
+  .info-hero {
+    display: flex;
+    flex-direction: column;
+  }
   .header #responsive-navbar-nav {
     position: absolute;
     list-style: none;

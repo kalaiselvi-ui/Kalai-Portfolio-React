@@ -5,9 +5,12 @@ const PortfolioCard = (props) => {
   return (
     <div>
       <Card className="portfolio-card">
-        <img src={props.image} alt="" />
+        <a href={props.link} target="_blank">
+          <img src={props.image} alt="" />
+        </a>
         <Card.Body>
           <Card.Title>{props.title}</Card.Title>
+          <Card.Text>{props.technology}</Card.Text>
           <Card.Text>{props.desc}</Card.Text>
         </Card.Body>
       </Card>
