@@ -1,6 +1,7 @@
 import React from "react";
 import { Typewriter } from "react-simple-typewriter";
-import profile from "../images/logo-1.jpeg";
+// import profile from "../images/logo-1.jpeg";
+import pdf from "../images/Kalais-FD-15D.pdf";
 import { Row, Col } from "react-bootstrap";
 
 const Hero = () => {
@@ -57,6 +58,7 @@ const Hero = () => {
                   <div className="button">
                     <a
                       target="_blank"
+                      rel="noopener noreferrer"
                       href="https://www.linkedin.com/in/kalaiselvi-j-b6b426177/"
                     >
                       <button className="btn_shadow">
@@ -64,12 +66,21 @@ const Hero = () => {
                       </button>
                     </a>
 
-                    <a target="_blank" href="https://github.com/kalaiselvi-ui">
+                    <a
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      href="https://github.com/kalaiselvi-ui"
+                    >
                       <button className="btn_shadow">
                         <i className="fab fa-github"></i>
                       </button>
                     </a>
-                    <a target="_blank" href="https://github.com/kalaiselvi-ui">
+                    <a
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      href={pdf}
+                      onclick=""
+                    >
                       <button className="btn_shadow px-3">Resume</button>
                     </a>
                   </div>
