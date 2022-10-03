@@ -150,11 +150,13 @@ button {
 }
 .hero .right_img img {
   position: absolute;
-  object-fit: cover;
-  top: 16%;
+  object-fit: contain;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  margin: 0 auto;
   left: 15%;
-  width: 160px;
-  height: 160px;
+  top: 10%;
 }
 .skill-title {
   text-align: center;

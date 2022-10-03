@@ -1,13 +1,13 @@
-import img1 from "../../html.png";
-import img2 from "../../css.png";
-import img3 from "../../js.png";
-import img4 from "../../bootstrap.png";
-import img5 from "../../reactjs.png";
-import img6 from "../../node.png";
-import img7 from "../../redux.png";
-import img8 from "../../wordpress.png";
-import img9 from "../../mongodb.png";
-import img10 from "../../git.png";
+import img1 from "../../images/html.png";
+import img2 from "../../images/css.png";
+import img3 from "../../images/js.png";
+import img4 from "../../images/bootstrap.png";
+import img5 from "../../images/reactjs.png";
+import img6 from "../../images/node.png";
+import img7 from "../../images/redux.png";
+import img8 from "../../images/wordpress.png";
+import img9 from "../../images/mongodb.png";
+import img10 from "../../images/git.png";
 
 const data = [
   {

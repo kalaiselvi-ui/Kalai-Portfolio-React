@@ -1,9 +1,6 @@
-import img1 from "../../webd.png";
-import img2 from "../../webdev.png";
-import img3 from "../../react.png";
-import img4 from "../../wordpress.png";
-import img5 from "../../seo.png";
-import img6 from "../../database.png";
+import img1 from "../../images/webd.png";
+import img2 from "../../images/webdev.png";
+import img5 from "../../images/seo.png";
 
 const data = [
   {

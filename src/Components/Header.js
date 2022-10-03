@@ -1,15 +1,15 @@
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import logo from "../kalai-pic.png";
+import logo from "../images/logo.PNG";
 
 function CollapsibleExample() {
   return (
     <Navbar collapseOnSelect expand="lg" className="header">
       <Container>
         <Navbar.Brand href="#home" className="logo">
-          <img src={logo} alt="" />
-          Kalai
+          <img src={logo} alt="" className="mx-4" />
+          Kalaiselvi
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">

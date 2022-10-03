@@ -1,7 +1,7 @@
 import React from "react";
 import { Typewriter } from "react-simple-typewriter";
-// import profile from "../images/logo-1.jpeg";
-import pdf from "../images/Kalais-FD-15D.pdf";
+import profile from "../images/profile.png";
+import pdf from "../images/Kalai_FrontDev_3Yr.pdf";
 import { Row, Col } from "react-bootstrap";
 
 const Hero = () => {
@@ -65,7 +65,6 @@ const Hero = () => {
                         <i className="fab fa-linkedin-in"></i>
                       </button>
                     </a>
-
                     <a
                       target="_blank"
                       rel="noopener noreferrer"
@@ -91,7 +90,7 @@ const Hero = () => {
           <Col md={4}>
             <div className="right col-6">
               <div className="right_img">
-                {/* <img src={profile} alt="" /> */}
+                <img src={profile} alt="" />
               </div>
             </div>
           </Col>
